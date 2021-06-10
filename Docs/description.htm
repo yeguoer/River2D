@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>River 2D Description</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="images/river2d.css" type="text/css">
+<script language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+</head>
+<body bgcolor="#FFFFFF" onLoad="">
+<table cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td width="2" height="25" valign="top"></td>
+    <td width="19" height="25" valign="top"></td>
+    <td width="171" height="25" valign="top"></td>
+    <td width="57" height="25" valign="top"></td>
+    <td width="193" height="25" valign="top"></td>
+    <td width="55" height="25" valign="top"></td>
+    <td width="171" height="25" valign="top"></td>
+    <td width="20" height="25" valign="top"></td>
+    <td width="2" height="25" valign="top"></td>
+  </tr>
+  <tr>
+    <td width="2" height="58" valign="top"></td>
+    <td width="19" height="58" valign="top"></td>
+    <td width="171" height="58" valign="top"></td>
+    <td width="57" height="58" valign="top"></td>
+    <td width="193" height="58" valign="top"><img src="images/river2d.gif" width="193" height="39"></td>
+    <td width="55" height="58" valign="top"></td>
+    <td width="171" height="58" valign="top"></td>
+    <td width="20" height="58" valign="top"></td>
+    <td width="2" height="58" valign="top"></td>
+  </tr>
+  <tr>
+    <td width="2" height="71" valign="top"></td>
+    <td width="19" height="71" valign="top"></td>
+    <td width="171" height="71" valign="top"></td>
+    <td width="305" height="71" colspan="3" valign="top">
+    <img src="images/description_page.gif" width="305" height="39"></td>
+    <td width="171" height="71" valign="top"></td>
+    <td width="20" height="71" valign="top"></td>
+    <td width="2" height="71" valign="top"></td>
+  </tr>
+  <tr>
+    <td width="688" height="2" colspan="8" valign="top" bgcolor="#000000"><img height=2 
+      src="GoLive 4 Tips_files/transparent.gif" 
+width=2></td>
+    <td width="2" height="3084" rowspan="3" valign="top" bgcolor="#000000"><img height=2 
+      src="GoLive 4 Tips_files/transparent.gif" width=2></td>
+  </tr>
+  <tr>
+    <td width="2" height="3082" rowspan="2" valign="middle" bgcolor="#000000"><img height=2 
+      src="GoLive 4 Tips_files/transparent.gif" width=2></td>
+    <td width="19" height="19" valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+    <td width="171" height="19" valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+    <td width="57" height="19" valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+    <td width="193" height="19" valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+    <td width="55" height="19" valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+    <td width="171" height="19" valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+    <td width="20" height="19" valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="19" height="3063" valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+    <td width="647" height="3063" colspan="5" valign="top" bgcolor="#CCCCCC"><p class="description" align="left"><b>Background</b></p>
+      
+      <p class="description" align="left">River2D is a two dimensional depth averaged 
+        finite element hydrodynamic model that has been customized for fish habitat 
+        evaluation studies. The River2D model suite actually consists of four 
+        programs: R2D_Bed , R2D_Ice, R2D_Mesh and River2D. All three programs 
+        have graphical user interfaces that are supported by any 32 bit version 
+        of Windows. R2D_Bed, R2D_Ice, and R2D_Mesh are graphical file editors. 
+        R2D_Bed was designed for editing bed topography data while R2D_Ice is 
+        intended for developing ice topographies to be used in the modelling of 
+        ice-covered domains. The R2D_Mesh program is used for the development 
+        of computational meshes that will ultimately be input for River2D.</p>
+      <p class="description" align="left">These programs are typically used in 
+        succession. The normal modelling process would involve creating a preliminary 
+        bed topography file (text) from the raw field data, then editing and refining 
+        it using R2D_Bed. If an ice-covered domain were being modelled, R2D_Ice 
+        would be used to develop ice topography. The resulting bed topography 
+        file is used (inconjunction with an ice topography file where relevant) 
+        in R2D_Mesh to develop a computational discretization as input to River2D. 
+        River2D is then used to solve for the water depths and velocities throughout 
+        the discretization. Finally, River2D is used to visualize and interpret 
+        the results and perform PHABSIM type fish habitat analyses. An iterative 
+        approach at various stages, including modification of the bed topography 
+        (and ice topography), is usual.</p>
+      <p class="description" align="left"><b>R2D_Bed</b></p>
+      
+  <p class="description" align="left">Accurate representation of the physical 
+    features of the river channel bed is probably the most crucial factor in successful 
+    river flow modelling. In addition to accurate and extensive field data, judgement 
+    and experience are necessary to connect the scattered data points into a digital 
+    surface representation. The River2D model family is based on the Triangulated 
+    Irregular Network (TIN) methodology, including breaklines, for spatial interpolation 
+    of nodal parameters. The nodal values are usually measured points, but the 
+    breakline locations are judgemental. R2D_Bed allows interactive setting and 
+    deleting of breakline segments.</p>
+      
+  <p class="description"> The relevant physical characteristics of the channel 
+    bed necessary for flow modelling are the bed elevation and the bed roughness 
+    height. R2D_Bed allows these values to be edited on an individual point basis 
+    or over irregular polygonal regions. R2D_Bed is also useful for editing channel 
+    index files, used in habitat analyses, with channel index replacing roughness 
+    height as the second nodal parameter.</p>
+      <p class="description" align="center">
+      <img src="bedprogram.gif" width="625" height="530"></p>
+      <p class="description" align="left"><b>R2D_Ice</b></p>
+      <p class="description" align="left">The River2D is equipped to model flow 
+        under an ice cover of known geometry. Ice properties relevant to the 2D 
+        hydrodynamic calculations are ice thickness and ice roughness height at 
+        every node in the computational domain. R2D_Ice allows provides the user 
+        with an effective graphical environment for the development of ice topography 
+        files. Various commands allow the user to modify ice properties globally, 
+        regionally, or individually. Breakline can be inserted into an ice topography 
+        to define the edge of the ice in partially ice-covered domains.</p>
+      <p class="description" align="center"><img src="iceprogram.gif" width="625" height="530"></p>
+      <p class="description" align="left"><b>R2D_Mesh</b></p>
+  <p class="description" align="left">The purpose of R2D_Mesh is to provide a 
+    relatively easy to use but effective computational mesh generating environment 
+    for two-dimensional depth average finite element hydrodynamic modelling. To 
+    generate a mesh, the necessary input to the R2D_Mesh program is a bed topography 
+    file, possibly edited in R2D_Bed, defining the reach of interest using pointwise 
+    elevations and roughnesses. The points can be independent or connected in 
+    breaklines or featurelines. Once the bed topography is input, the user can 
+    graphically define the computation discretization and boundary conditions 
+    with the aid of various tools in the R2D_Mesh enviroment. When the user is 
+    satisfied, an input file for the River2D program can be generated.</p>
+  <p class="description" align="center"><img src="meshprogram.gif" width="623" height="527"></p>
+  <p class="description" align="left"><b>River2D</b></p>
+  <p class="description" align="left">The River2D model is a two-dimensional, 
+    depth averaged finite element model. It is intended for use on natural streams 
+    and rivers and has special features for accommodating supercritical /subcritical 
+    flow transitions and variable wetted area. It is basically a transient model 
+    but provides for an accelerated convergence to steady-state conditions. </p>
+  <p class="description" align="left">The River2D environment has a number of 
+    options to aid the user in visualizing the progression and/or final results 
+    of the hydrodynamic computations including colour maps, contour maps and velocity 
+    vector fields.</p>
+      <p class="description" align="center">
+      <img src="flowprogram1.gif" width="620" height="524"></p>
+  <p class="description" align="left">The fish habitat module in River2D is based 
+    on the PHABSIM weighted usable area approach, adapted for a triangular irregular 
+    network geometrical description. The visual aids can also be used to display 
+    the results of habitat analyses. </p>
+      <p class="description" align="left">In River2D, the user also has access 
+        to a few mesh editing commands so that adjustments can be made to the 
+        mesh without having to leave the River2D environment.</p>
+      </td>
+    <td width="20" height="3063" valign="top" bgcolor="#CCCCCC">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="688" height="2" colspan="8" valign="top" bgcolor="#000000"><img height=2 
+      src="GoLive 4 Tips_files/transparent.gif" 
+width=2></td>
+    <td width="2" height="2" valign="top"></td>
+  </tr>
+  <tr>
+    <td width="2" height="24" valign="top"></td>
+    <td width="19" height="24" valign="top"></td>
+    <td width="171" height="24" valign="top"></td>
+    <td width="57" height="24" valign="top"></td>
+    <td width="193" height="24" valign="top"></td>
+    <td width="55" height="24" valign="top"></td>
+    <td width="171" height="24" valign="top"></td>
+    <td width="20" height="24" valign="top"></td>
+    <td width="2" height="24" valign="top"></td>
+  </tr>
+  <tr>
+    <td width="688" height="35" colspan="8" valign="top"><hr size="1" noshade align="center"></td>
+    <td width="2" height="35" valign="top"></td>
+  </tr>
+  <tr>
+    <td width="688" height="26" colspan="8" valign="top"><div align="center"><a href="index.htm"><font color="#330066"><span class="navigationbar">Home</span></font></a><span class="navigationbar"> 
+        | Description | <a href="download.htm"><font color="#330066">Downloads</font></a> 
+        | <font color="#330066">Forum</font> 
+        |<a href="faqs.htm"><font color="#330066"> F.A.Q.'s</font></a></span></div></td>
+    <td width="2" height="26" valign="top"></td>
+  </tr>
+  <tr>
+    <td width="688" height="72" colspan="8" valign="top"><hr>
+      <span class="copywrite">&#169; 2002 University of Alberta<br>
+  All Rights Reserved<br>
+  Last updated: 
+  <script language="JavaScript">
+<!-- hide >
+document.write(document.lastModified)
+// unhide -->
+    </script>
+  </span></td>
+    <td width="2" height="72" valign="top"></td>
+  </tr>
+  <tr>
+    <td width="2" height="1" valign="top"><img width="2" height="1" src="transparent.gif"></td>
+    <td width="19" height="1" valign="top"><img width="19" height="1" src="transparent.gif"></td>
+    <td width="171" height="1" valign="top"><img width="171" height="1" src="transparent.gif"></td>
+    <td width="57" height="1" valign="top"><img width="57" height="1" src="transparent.gif"></td>
+    <td width="193" height="1" valign="top"><img width="193" height="1" src="transparent.gif"></td>
+    <td width="55" height="1" valign="top"><img width="55" height="1" src="transparent.gif"></td>
+    <td width="171" height="1" valign="top"><img width="171" height="1" src="transparent.gif"></td>
+    <td width="20" height="1" valign="top"><img width="20" height="1" src="transparent.gif"></td>
+    <td width="2" height="1" valign="top"><img width="2" height="1" src="transparent.gif"></td>
+  </tr>
+</table>
+</body>
+</html>
